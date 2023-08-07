@@ -1,0 +1,42 @@
+1. mkdir "Ahmed Alaa"
+ls 
+cd Ahmed\ Alaa/
+
+2. mkdir Documents
+ls
+touch file1 file2 file3
+ls
+
+3. cd ..
+touch .hidden_file
+ls -a
+
+4.ls 
+nano file1
+"Hello tester"
+press ctrl+x -- y -- enter
+cat file1
+
+6.ls 
+mkdir -
+cd ./-
+or cd -- -
+
+7. cd ~/Ahmed\ Alaa/
+ls
+cp -r Documents/ My_Documents
+ls
+
+8. ls -a
+
+9. ls 
+cd Documents
+mv file2 file3 ~/Ahmed\ Alaa/
+ls 
+cd ..
+ls
+
+10. cd 
+ls 
+rm -r  Ahmed\ Alaa/
+ls
