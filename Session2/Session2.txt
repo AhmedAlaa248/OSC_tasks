@@ -1,0 +1,44 @@
+1. cd Downloads
+ls
+unzip Updated-Task-02.zip
+ls
+cd Updated-Task-02
+ls 
+cat README.txt
+
+
+2. ls -a
+tar -xf .level-1.tar
+ls -a
+cd .level-1
+ls
+cat README.txt
+
+3. ls -l 
+file level-2
+tar -xf level-2
+ls
+cd level-2
+ls
+cat README.txt
+
+4. find -name "level-3"
+cd gBT5u0vLT5/
+ls 
+
+5. file level-3
+bunzip2 -1 level-3
+bunzip2 -9 level-3.out
+file level-3.out
+tar -xf level-3.out
+ls
+cd level-3
+ls
+cat README.txt
+
+6. ls -l (TO LOCATE THE LINK)
+cat WfUKyzFeEv
+find -size 73c
+cd m7lRDpRTUJ/
+cat xVMvVOKNW5
+
