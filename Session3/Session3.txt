@@ -1,0 +1,31 @@
+1. sudo useradd OSC				// The new user letters are capital
+   sudo passwd OSC				// The new user letters are capital
+   sudo groupadd osc_group
+   sudo usermod -aG osc_ group OSC 		// The new user letters are capital
+   sudo usermod -aG sudo OSC 			// The new user letters are capital
+   su - OSC 					// The new user letters are capital
+
+2. bash
+   touch public_file.txt private_file.txt executable_script.sh
+   chmod a+rw public_file.txt
+   chmod u+rw private_file.txt
+   chmod u+rwx executable_script.sh; chmod g+rx executable_script.sh
+   ls -l
+
+3. sudo chown osc private_file.txt 		// The old user letters are small
+   sudo chgrp osc_group private_file.txt
+   ls -l
+
+4. sleep 1000&
+   ps
+   kill 5915					// (PID = 5915)
+   vim test
+   ctrl + z
+   ps -l
+   killall -SIGKILL vim
+   ps -l
+
+5. sudo apt install neofetch
+   sudo apt remove neofetch
+
+   
